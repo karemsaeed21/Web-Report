@@ -12,6 +12,41 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+@media (min-width: 768px) {
+
+    /* Styles for larger screens (tablets and above) */
+    body {
+        margin: 40px;
+    }
+
+    main {
+        padding: 40px;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 480px) {
+
+    /* Styles for medium-sized screens (landscape mobile and small tablets) */
+    body {
+        margin: 30px;
+    }
+
+    main {
+        padding: 30px;
+    }
+}
+
+@media (max-width: 479px) {
+
+    /* Styles for smaller screens (portrait mobile) */
+    body {
+        margin: 20px;
+    }
+
+    main {
+        padding: 20px;
+    }
+}
 
 .container {
     max-width: 1200px;
